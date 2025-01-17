@@ -7,14 +7,14 @@
 
 language: swift
 os: osx
-osx_image: xcode14.2 # Укажите версию Xcode, которая поддерживает ваш проект
-xcode_project: YourProject.xcodeproj # Укажите путь к вашему .xcodeproj
-xcode_scheme: YourSchemeName # Укажите схему вашего проекта
+osx_image: xcode14.2
+xcode_project: YourProject.xcodeproj
+xcode_scheme: YourSchemeName
 xcode_destination: platform=iOS Simulator,OS=16.4,name=iPhone 14
 
 before_install:
   - brew update
-  - brew install swiftlint || true # Установите необходимые инструменты
+  - brew install swiftlint || true
 
 script:
   - xcodebuild clean build test -project YourProject.xcodeproj -scheme YourSchemeName -destination "platform=iOS Simulator,OS=16.4,name=iPhone 14" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
