@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F525D6692D3800EF00FDEBFB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F525D6682D3800EF00FDEBFB /* Kingfisher */; };
+		F5AE4B512D3A4AC70072C15F /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = F5AE4B502D3A4AC20072C15F /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		F525D6552D37B8F200FDEBFB /* AnimationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F525D69B2D3954B600FDEBFB /* AnimationAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5AE4B502D3A4AC20072C15F /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -60,6 +62,7 @@
 		F525D64C2D37B8F200FDEBFB = {
 			isa = PBXGroup;
 			children = (
+				F5AE4B502D3A4AC20072C15F /* .travis.yml */,
 				F525D6572D37B8F200FDEBFB /* AnimationApp */,
 				F525D69C2D3954B600FDEBFB /* AnimationAppTests */,
 				F525D6562D37B8F200FDEBFB /* Products */,
@@ -171,6 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5AE4B512D3A4AC70072C15F /* .travis.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
